@@ -1,15 +1,15 @@
-## Project Title: Estimation of Remaining Useful Life of Machine Components using Advanced Neural Networks
+## Project Title
+Estimation of Remaining Useful Life of Machine Components using Advanced Neural Networks
 
-**Author**
-Aditya Walvekar
+**Author**: Aditya Walvekar
 
 ### Outline of project
 
-- Data Import, Processing and EDA: [Link to notebook 1]()
-- Model Training, Predictions and Deployment: [Link to notebook 2]()
-- Raw Data Folder: 
-- Processed Data Folder: 
-- Saved Models Folder: 
+- **Data Import, Processing and EDA:** https://github.com/aditwal/UCB-ML-Capstone-Project/blob/main/data_processing_EDA.ipynb
+- **Model Training, Predictions and Deployment:** https://github.com/aditwal/UCB-ML-Capstone-Project/blob/main/model_training.ipynb
+- **Raw Data Folder:** https://github.com/aditwal/UCB-ML-Capstone-Project/tree/main/CMAPSSData
+- **Processed Data Folder:** https://github.com/aditwal/UCB-ML-Capstone-Project/tree/main/Processed_Data
+- **Saved Models Folder:** https://github.com/aditwal/UCB-ML-Capstone-Project/tree/main/Saved_Model
 
 ### Executive summary
 
@@ -35,7 +35,7 @@ The scope for this analysis is limited to Dataset FD001 with only one fault cond
 
 Remaining useful life (RUL) for an engine is predicted using advanced machine learning techniques using neural networks including temporal convolution layers and LSTM layers to account for the tempral relationship between features and the target. The current analysis aims to replicate the model presented in the this paper - https://arxiv.org/abs/1810.05644. Due to lack of computational resources and already complex nature of the model, hyperparameter tuning is out of scope. 
 
-#### Results
+#### Results and Recommendations
 
 * This project demonstrated use of advanced neural networks based model to estimate the RUL of the industrain machine. 
 
